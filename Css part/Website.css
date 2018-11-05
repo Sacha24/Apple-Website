@@ -18,6 +18,18 @@ body{
 	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+a.links{
+    color: #6bf;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 0.3em;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
 .menu-entry
 {
 	margin: 40px;
