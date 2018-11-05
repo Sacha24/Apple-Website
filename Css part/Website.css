@@ -1,0 +1,62 @@
+.stripe {
+    border: 1px solid black;
+}
+
+.menu.stripe{
+    height: 50px;
+}
+
+.iphoneXs.stripe{
+    height: 700px;
+}
+
+.iphoneXr.stripe{
+    height: 700px
+}
+
+.watch.stripe{
+    height: 700px;
+}
+
+.ipad-macbook.stripe{
+    height: 600px;
+    display: flex;
+}
+
+.ipad.stripe{
+    width: 50%;
+}
+
+.macbook.stripe{
+    width: 50%;
+}
+
+.mini-music.stripe{
+    height: 600px;
+    display: flex;
+}
+
+.mini.stripe{
+    width: 50%;
+}
+
+.music.stripe{
+    width: 50%;
+}
+
+.airpods-tv.stripe{
+    height: 600px;
+    display: flex;
+}
+
+.airpods.stripe{
+    width: 50%;
+}
+
+.tv.stripe{
+    width: 50%;
+}
+
+.footer.stripe{
+    height: 300px;
+}
