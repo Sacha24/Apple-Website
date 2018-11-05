@@ -8,6 +8,49 @@ body{
 
 .menu.stripe{
     height: 50px;
+    position: fixed;
+    top: -1px;
+	height: 50px;
+	width: 1424px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.9);
+	font-size: 13px;
+	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.menu-entry
+{
+	margin: 40px;
+}
+
+.menu-entry a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.menu-entry a:hover
+{
+	color: lightgrey;
+}
+
+.menu-entry img
+{
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.search.menu-entry img
+{
+	width: 25px;
+	height: 25px;
+}
+
+.bag.menu-entry img
+{
+	width: 24px;
+	height: 24px;
 }
 
 .iphoneXs.stripe{
