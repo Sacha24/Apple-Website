@@ -12,14 +12,29 @@ body{
 
 .iphoneXs.stripe{
     height: 700px;
+    background-image: url(Images/iphoneXs.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    background-color: black;
 }
 
 .iphoneXr.stripe{
-    height: 700px
+    height: 700px;
+    background-image: url(Images/iphoneXr.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    background-color: black;
 }
 
 .watch.stripe{
-    height: 700px;
+    height: 800px;
+    background-image: url(Images/watch.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 67%;
+    background-color: #FAFAFA;
 }
 
 .ipad-macbook.stripe{
@@ -29,10 +44,20 @@ body{
 
 .ipad.stripe{
     width: 50%;
+    background-image: url(Images/iPad.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    background-color: #FAFAFA;
 }
 
 .macbook.stripe{
     width: 50%;
+    background-image: url(Images/macbook.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    background-color: #FAFAFA;
 }
 
 .mini-music.stripe{
@@ -42,10 +67,18 @@ body{
 
 .mini.stripe{
     width: 50%;
+    background-image: url(Images/mini.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 .music.stripe{
     width: 50%;
+    background-image: url(Images/music.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 .airpods-tv.stripe{
@@ -55,10 +88,18 @@ body{
 
 .airpods.stripe{
     width: 50%;
+    background-image: url(Images/airpods.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 .tv.stripe{
     width: 50%;
+    background-image: url(Images/tv.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 .footer.stripe{
