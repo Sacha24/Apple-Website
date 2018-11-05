@@ -182,7 +182,6 @@ a.links{
   background-repeat: no-repeat;
   background-size: auto;
   text-align: center;
-  color: white;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
@@ -274,6 +273,7 @@ a.links{
   position: relative;
   top: 10px;
   font-size: 36px;
+  color: white;
 }
 
 .featurednext4B {
