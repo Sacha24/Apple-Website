@@ -279,11 +279,13 @@ a.links{
   position: relative;
   bottom: 50px;
   font-size: 20px;
+  color: white
 }
 
 .featurednext4C {
   position: relative;
   bottom: 40px;
+  color: white;
 }
 
 .featurednext4C a {
