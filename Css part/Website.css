@@ -1,150 +1,483 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
 .stripe {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
-.menu.stripe{
-    height: 50px;
-    position: fixed;
-    top: -1px;
-	height: 50px;
-	width: 1424px;
-	text-align: center;
-	background: rgba(0, 0, 0, 0.9);
-	font-size: 13px;
-	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+.menu.stripe {
+  height: 50px;
+  position: fixed;
+  top: -1px;
+  height: 50px;
+  width: 1424px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+  font-size: 13px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
-.menu-entry
-{
-	margin: 40px;
+.menu-entry {
+  margin: 40px;
 }
 
-.menu-entry a
-{
-	text-decoration: none;
-	color: white;
+.menu-entry a {
+  text-decoration: none;
+  color: white;
 }
 
-.menu-entry a:hover
-{
-	color: lightgrey;
+.menu-entry a:hover {
+  color: lightgrey;
 }
 
-.menu-entry img
-{
-	width: 50px;
-	height: 50px;
-	vertical-align: middle;
+.menu-entry img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
 }
 
-.search.menu-entry img
-{
-	width: 25px;
-	height: 25px;
+.search.menu-entry img {
+  width: 25px;
+  height: 25px;
 }
 
-.bag.menu-entry img
-{
-	width: 24px;
-	height: 24px;
+.bag.menu-entry img {
+  width: 24px;
+  height: 24px;
 }
 
-.iphoneXs.stripe{
-    height: 700px;
-    background-image: url(Images/iphoneXs.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: bottom;
-    background-color: black;
+.promo.stripe {
+  height: 750px;
+  border-bottom: 8px solid white;
+  background-color: black;
+  background-image: url(Images/iphoneXs.jpg);
+  background-size: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
-.iphoneXr.stripe{
-    height: 700px;
-    background-image: url(Images/iphoneXr.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: bottom;
-    background-color: black;
+.promo.stripe img {
+  position: relative;
+  top: 100px;
 }
 
-.watch.stripe{
-    height: 800px;
-    background-image: url(Images/watch.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position-x: 67%;
-    background-color: #FAFAFA;
+.promo2 {
+  position: relative;
+  font-size: 25px;
+  top: 110px;
 }
 
-.ipad-macbook.stripe{
-    height: 600px;
-    display: flex;
+.promo3 {
+  position: relative;
+  top: 120px;
+  margin: 12px;
+  font-size: 20px;
 }
 
-.ipad.stripe{
-    width: 50%;
-    background-image: url(Images/iPad.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: bottom;
-    background-color: #FAFAFA;
+.promo3 a {
+  text-decoration: none;
+  color: #4098d2;
 }
 
-.macbook.stripe{
-    width: 50%;
-    background-image: url(Images/macbook.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: bottom;
-    background-color: #FAFAFA;
+.featured.stripe {
+  height: 650px;
+  border-top: 10px solid white;
+  background-color: black;
+  background-image: url(Images/iphoneXr.jpg);
+  background-size: 1100px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
-.mini-music.stripe{
-    height: 600px;
-    display: flex;
+.featured.stripe img {
+  position: relative;
+  top: 40px;
 }
 
-.mini.stripe{
-    width: 50%;
-    background-image: url(Images/mini.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+.featured1 {
+  position: relative;
+  font-size: 27px;
+  top: 50px;
 }
 
-.music.stripe{
-    width: 50%;
-    background-image: url(Images/music.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+.featured2 {
+  position: relative;
+  font-size: 17px;
+  top: 60px;
+  color: #ccc;
 }
 
-.airpods-tv.stripe{
-    height: 600px;
-    display: flex;
+.featurednext.stripe {
+  height: 750px;
+  background-color: #fafafa;
+  background-image: url(Images/watch.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 700px;
+  background-size: 400px;
 }
 
-.airpods.stripe{
-    width: 50%;
-    background-image: url(Images/airpods.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+.featurednext.stripe img {
+  position: relative;
+  top: 300px;
+  left: 200px;
 }
 
-.tv.stripe{
-    width: 50%;
-    background-image: url(Images/tv.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+.featurednextA {
+  font-size: 27px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  position: relative;
+  top: 300px;
+  left: 160px;
 }
 
-.footer.stripe{
-    height: 300px;
+.featurednextB {
+  font-size: 21px;
+  position: relative;
+  top: 300px;
+  left: 175px;
+  margin: 20px;
+}
+
+.featurednextB a {
+  text-decoration: none;
+  color: #0068cc;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext2n3 {
+  display: flex;
+}
+
+.featurednext2.stripe {
+  height: 600px;
+  width: 725px;
+  background-color: #fafafa;
+  background-image: url(Images/iPad.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+  color: white;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext2.stripe img {
+  position: relative;
+  top: 45px;
+}
+
+.featurednext2A {
+  position: relative;
+  top: 55px;
+  font-size: 21px;
+}
+
+.featurednext2B {
+  position: relative;
+  top: 65px;
+  margin: 20px;
+  font-size: 17px;
+}
+
+.featurednext2B a {
+  text-decoration: none;
+  color: white;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext2C {
+  position: relative;
+  top: 400px;
+  right: 130px;
+}
+
+.featurednext3.stripe {
+  height: 600px;
+  width: 725px;
+  background-color: #fafafa;
+  background-image: url(Images/macbook.jpg);
+  background-size: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.featurednext3A {
+  position: relative;
+  top: 10px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext3B {
+  position: relative;
+  font-size: 21px;
+}
+
+.featurednext3C {
+  position: relative;
+  margin: 15px;
+  font-size: 17px;
+}
+
+.featurednext3C a {
+  text-decoration: none;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: #0068cc;
+}
+
+.featurednext4n5 {
+  display: flex;
+}
+
+.featurednext4.stripe {
+  height: 600px;
+  width: 725px;
+  background-image: url(Images/mini.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext4A {
+  position: relative;
+  top: 10px;
+  font-size: 36px;
+}
+
+.featurednext4B {
+  position: relative;
+  bottom: 50px;
+  font-size: 20px;
+}
+
+.featurednext4C {
+  position: relative;
+  bottom: 40px;
+}
+
+.featurednext4C a {
+  text-decoration: none;
+  color: #0068cc;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext5.stripe {
+  height: 600px;
+  width: 725px;
+  background-color: #fafafa;
+  background-image: url(Images/music.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext5A {
+  position: relative;
+  top: 45px;
+  font-size: 18px;
+}
+
+.featurednext5B {
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+}
+
+.featurednext5C {
+  position: relative;
+  top: 40px;
+  margin: 20px;
+}
+
+.featurednext5C a {
+  text-decoration: none;
+  color: #0068cc;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext6n7 {
+  display: flex;
+}
+
+.featurednext6.stripe {
+  height: 600px;
+  width: 725px;
+  background-color: #fafafa;
+  background-image: url(Images/airpods.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext6A {
+  position: relative;
+  color: white;
+  font-size: 36px;
+  top: 45px;
+}
+
+.featurednext6B {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: 55px;
+}
+
+.featurednext6C {
+  position: relative;
+  margin: 20px;
+  top: 65px;
+}
+
+.featurednext6C a {
+  text-decoration: none;
+  color: #0068cc;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext7.stripe {
+  height: 600px;
+  width: 725px;
+  background-color: #fafafa;
+  background-image: url(Images/tv.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.featurednext7A {
+  position: relative;
+  top: 45px;
+  font-size: 40px;
+}
+
+.featurednext7B {
+  position: relative;
+  top: 45px;
+  font-size: 20px;
+}
+
+.featurednext7C {
+  position: relative;
+  top: 55px;
+  margin: 20px;
+}
+
+.featurednext7C a {
+  text-decoration: none;
+  color: #0068cc;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.footer.stripe {
+  height: 500px;
+  background-color: #f2f2f2;
+}
+
+.lists {
+  position: relative;
+  text-align: left;
+  left: 100px;
+  top: 50px;
+}
+
+.line1 {
+  position: relative;
+  font-size: 11px;
+  color: #888;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  border-bottom: 1px solid lightgrey;
+  padding: 17px 0 11px;
+  top: 30px;
+  left: 165px;
+}
+
+ul {
+  position: relative;
+  list-style-type: none;
+  display: inline-table;
+  margin: 15px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #969696;
+  font-size: 12px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+li {
+  margin: 7px;
+}
+
+.Black a {
+  color: black;
+}
+
+.footer2 {
+  position: relative;
+  color: #969696;
+  font-size: 12px;
+  top: 90px;
+  left: 160px;
+}
+
+.line2 {
+  position: relative;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0 7px;
+}
+
+.footer2 a {
+  color: #4098d2;
+}
+
+.MenuEnd a {
+  text-decoration: none;
+  color: #969696;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin: 10px;
+  border-right: #969696 solid 1px;
+  padding-right: 15px;
+}
+
+.Right.MenuEnd {
+  position: relative;
+  left: 130px;
+}
+
+.Right.MenuEnd img {
+  vertical-align: middle;
 }
