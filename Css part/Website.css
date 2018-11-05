@@ -231,14 +231,15 @@ a.links{
 
 .featurednext3A {
   position: relative;
-  top: 10px;
+  font-size: 22px;
+  top: 15px;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
 
 .featurednext3B {
   position: relative;
-  font-size: 21px;
+  font-size: 24px;
 }
 
 .featurednext3C {
@@ -309,12 +310,14 @@ a.links{
   position: relative;
   top: 45px;
   font-size: 18px;
+  color: white
 }
 
 .featurednext5B {
   position: relative;
   top: 30px;
   font-size: 20px;
+  color: white;
 }
 
 .featurednext5C {
@@ -390,12 +393,14 @@ a.links{
   position: relative;
   top: 45px;
   font-size: 40px;
+  color: white;
 }
 
 .featurednext7B {
   position: relative;
   top: 45px;
   font-size: 20px;
+  color: white;
 }
 
 .featurednext7C {
